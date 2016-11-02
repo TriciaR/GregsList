@@ -113,13 +113,14 @@ li.prev, li.pgs, li.next {
 	display: inline-block;
 	position: relative;
 	border: 1px solid #ddd;
-	border-radius: 5px;
+	float: left;
 }
 
 li.prev {
-	float: left;
 	padding: 5px 10px;
-	margin-right: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin: 0px;
 }
 
 li.next {
@@ -127,8 +128,9 @@ li.next {
 }
 
 li.pgs {
-	padding: 5px 10px;
-	margin-right: 5px;
+	padding: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .left {
